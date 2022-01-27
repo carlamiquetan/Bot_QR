@@ -48,7 +48,7 @@ def input_text(update,contex):
 
 if __name__ == '__main__':
 
-    updater = Updater(token='5018354557:AAFVswblSs7cZk587lQ0d-Ucwrl7f-Cvv88', use_context=True)
+    updater = Updater(token='', use_context=True)
 
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
